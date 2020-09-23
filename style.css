@@ -1,0 +1,434 @@
+/*
+Theme Name: Nasiha Medical Blog
+Theme URI: 
+Author: Mohamed Sayed
+Author URI:
+Description: This is a theme for medical blog called Nasiha
+Version: 1.0
+Text Domain: Nasiha
+*/
+/*Start Add My Font*/
+@font-face{
+    font-family:ar_font;
+    src : url('./fonts/DTHULUTHII.ttf');
+}
+@font-face{
+    font-family:markazi;
+    src: url('./fonts/Markazi.ttf');
+}
+@font-face{
+    font-family:DIWAN;
+    src: url('./fonts/DIWANLTR.TTF');
+}
+/*End Add My Font */
+
+/*Start Nav items*/
+#menu-main-menu{
+    font-family: markazi;
+    font-size: 25px;
+}
+/*End Nav items*/
+
+/*Start site-nav*/
+.site-nav{
+    background-color: black;
+}
+/*End site-nav*/
+
+/*Start site-logo*/
+.site-logo{
+    font-family: ar_font;
+    font-size: 45px !important;
+}
+/*End site-logo*/
+
+/*Start Logo*/
+.img-logo{
+    height: 64px !important;
+    widows: 64px !important;
+    border-radius: 30px !important;
+}
+/*End Logo*/
+
+/*Start Exams section*/
+.exam-section{
+   background-color: white !important;
+}
+/*End Exams section*/
+
+/*Start section-title*/
+.section-title{
+    font-family: Diwan;
+    font-size: 63px;
+    text-align: center;
+    margin-top: 0px !important;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+/*End section-title*/
+
+/*Start center-d*/
+.center-d{
+    margin: 0 auto;
+}
+/*End center-d*/
+
+/*Start exam-section-parag*/
+.exam-section-parag{
+    font-family: markazi;
+    text-align: right;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+/*End exam-section-parag*/
+
+/*Start Exam-block*/
+.exam-block{
+    border: 1px solid #afafaf;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+}
+/*End Exam Block*/
+
+/*Start exam-block title*/
+.exam-block-title{
+    padding-top: 6px;
+    font-family: markazi;
+    font-size: 30px;
+    color: #000000a8;
+    font-weight: bold;
+    padding-bottom: 10px;
+    float: right;
+}
+/*End exam-block title*/
+
+/*Start exam-button*/
+.exam-button{
+    border: 1px solid #afafaf !important;
+    padding: 6px !important;
+    font-family: markazi;
+    border-radius: 23px !important;
+    width: 110px;
+    font-size: 22px !important;
+}
+.exam-button:hover {
+    background-color: #575757;
+    color: white !important;
+    transition: 800ms;
+}
+/*End exam-button*/
+
+/*Start Q&A section*/
+.q-a{
+    background-image: url(img/q&a.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px !important;
+    color: white;
+}
+/*End Q&A section*/
+
+/*Start Q&A Paragraph*/
+.qa-section-parag{
+    background: #00000096;
+    border-radius: 20px;
+    font-family: markazi;
+    text-align: right;
+    font-size: 25px;
+    padding: 20px;
+}
+/*End Q&A Paragraph*/
+
+/*Start ContactUs*/
+/*End ContactUs*/
+
+/*Start Contact-form*/
+#contact-form{
+    font-family: markazi;
+}
+/*End Conact-form*/
+
+/*Start form-control*/
+.form-control{
+    font-size: 20px !important;
+    border-radius: 15px !important;
+    padding:10px !important;
+    padding-right: 30px !important;
+    padding-left : 30px !important;
+    direction: rtl !important;
+}
+/*End form-control*/
+
+/*Start submit-btn*/
+#submit-btn{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 19px;
+    border: 1px solid;
+}
+#submit-btn:hover{
+    background-color: #252525;
+    color: white;
+    transition: 1000ms;
+}
+/*End submit-btn*/
+
+/*Start social-info*/
+#social-info{
+   text-align: center;
+    font-family: markazi;
+    background-color: #ced4da80;
+    padding: 80px;
+    border-radius: 24px;
+    border: 1px solid #c7c7c7;
+    width: 100%;
+    height: 100%;
+}
+.social-info-title{
+    font-family: markazi;
+    font-size: 30px;
+}
+.contact-icon{
+    width: 40px;
+    height: 40px;
+    background-color: transparent !important;
+    border: 0px !important;
+}
+.social-contact-icon{
+    width: 60px;
+    height: 60px;
+    background-color: transparent !important;
+    border: 0px !important;
+}
+/*End social-info*/
+
+/*Start Jumbotron*/
+.jumbotron{
+    height: 100% !important;
+    margin-bottom: 0px !important;
+}
+/*End Jumbotron*/
+
+/*Start exam-post section*/
+.exam-post{
+   text-align: right;
+    border: 1px solid #9c9c9c;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+.exam-post-title{
+    font-family: markazi;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    padding-right: 20px !important;
+    margin-bottom: 12px;
+    color: #000000b8 !important;
+}
+#exam-cat{
+    background-image: url(img/p3.jpg);
+    background-repeat: repeat;
+    border-radius: 0px !important;
+    min-height: 500px;
+}
+#exam-cat p{
+    font-family: markazi;
+    font-size: 20px;
+    padding: 15px;
+}
+.exam-link{
+    font-family: markazi;
+    font-size: 20px !important;
+    border: 1px solid #000 !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    float: left;
+}
+.exam-link:hover{
+    background-color: #2f2f2f;
+    color: white !important;
+    transition: 1000ms;  
+}
+.exam-post-img{
+    width:100% !important;
+}
+/*End exam-post section*/
+
+/*Start single-exam-post*/
+.single-exam-post{
+    font-family: markazi;
+    text-align: right;
+    border: 1px solid #b7b7b7;
+    padding: 20px;
+    background-color: #ffffff;
+}
+#post-cat{
+     background-image: url(img/p3.jpg);
+    background-repeat: repeat;
+    border-radius: 0px !important;
+}
+#single-post p{
+    font-family: markazi;
+    font-size: 20px;
+    padding: 15px;
+}
+/*End single-exam-post*/
+l
+/*Start single-qa-post*/
+.empty-alert{
+    font-family: diwan ;
+    font-size: 50px;
+    margin-top: 130px;
+    margin-bottom: 132px !important;
+}
+.min-wid{
+    min-height: 523px !important;
+}
+/*End single-qa-post*/
+.single-post-img{
+    margin-bottom: 20px;
+}
+.single-post-content{
+    padding: 40px;
+}
+.wp-block-embed__wrapper{
+    text-align: center;
+}
+
+/*Start post-pagination*/
+.post-pagination{
+    margin: auto;
+    direction: ltr;
+    width: max-content;
+    padding: 10px;
+    font-family: fantasy;
+}
+.post-pagination a{
+    color:#2f2f2f;
+}
+.post-pagination .page-numbers{
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+}
+.post-pagination a:hover{
+    text-decoration: none;
+    background-color: #484848;
+    color: white;
+    border: 1px solid #ddd;
+    transition: 1000ms;
+}
+.post-pagination .current{
+    background-color: #969696;
+}
+/*End post-pagination*/
+
+/*Start comments*/
+.comments-list{
+    direction: rtl;
+    display: table;
+    width: 95%;
+    margin-top: 50px;
+}
+.comments-list  .comment{
+    padding: 10px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 10px;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+.comment-meta{
+    width: max-content;
+}
+.comment-meta a{
+    color: #8c8c8c;
+}
+.comments-list .url{
+    font-size: 25px;
+    color: #676767;
+    font-weight: bold;
+    font-style: normal;
+}
+.comments-list .comment-reply-link{
+    color: #616161;
+    font-size: 18px;
+    font-weight: bold;
+}
+.comment p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: max-content;
+    color: #4e4e4e;
+    font-size: 20px;
+}
+.comments-list .comment .children > .comment{
+    padding: 10px;
+    background-color: #d4d4d4d4;
+    margin-top: 10px;
+    border: 1px solid #b7b7b7;
+}
+.comment .says{
+    display: none;
+}
+.comment img{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.comments-list ul , 
+.comments-list ol{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+.comments{
+    margin: auto;
+    background: #fff;
+    font-family: markazi;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.vcard{
+    width: 10%;
+}
+.comments div{
+    
+}
+.comments-title{
+    font-family: diwan;
+    font-size:50px;
+    font-weight: bold;
+}
+#commentform{
+    text-align: right;
+    width: max-content;
+    padding: 51px;
+}
+#reply-title{
+    width: max-content;
+    margin: auto;
+}
+.comment-form-in{
+    margin-bottom: 10px;
+}
+/*End Comments*/
+
+/*Start Footer*/
+.footer{
+    background-color: #252525;
+    color: white;
+    padding: 10px;
+    font-size: 14px !important;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+}
+/*End Footer*/
