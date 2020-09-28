@@ -1,69 +1,95 @@
 /*
-Theme Name: Nasiha Medical Blog
-Theme URI: 
+Theme Name: LiveNippon 
 Author: Mohamed Sayed
-Author URI:
-Description: This is a theme for medical blog called Nasiha
+Description: This is a theme for Travel Agency
 Version: 1.0
-Text Domain: Nasiha
+Text Domain: LiveNippon
 */
-/*Start Add My Font*/
+/************************************************************************/
+
 @font-face{
-    font-family:ar_font;
-    src : url('./fonts/DTHULUTHII.ttf');
-}
-@font-face{
-    font-family:markazi;
-    src: url('./fonts/Markazi.ttf');
+    font-family:Mont;
+    src : url('./fonts/Mont.ttf');
 }
 @font-face{
-    font-family:DIWAN;
-    src: url('./fonts/DIWANLTR.TTF');
+    font-family:work;
+    src: url('./fonts/Work.ttf');
 }
-/*End Add My Font */
 
-/*Start Nav items*/
-#menu-main-menu{
-    font-family: markazi;
-    font-size: 25px;
+body{
+    font-family: Work !important;
 }
-/*End Nav items*/
-
-/*Start site-nav*/
-.site-nav{
-    background-color: black;
-}
-/*End site-nav*/
-
-/*Start site-logo*/
-.site-logo{
-    font-family: ar_font;
-    font-size: 45px !important;
-}
-/*End site-logo*/
 
 /*Start Logo*/
 .img-logo{
-    height: 64px !important;
-    widows: 64px !important;
-    border-radius: 30px !important;
+    height: 85px !important;
+    background-color: transparent !important;
+    border:0px !important;
 }
 /*End Logo*/
 
-/*Start Exams section*/
-.exam-section{
-   background-color: white !important;
+/*Start site-nav*/
+.site-nav{
+    background-color: #eaeaea;
 }
-/*End Exams section*/
+/*End site-nav*/
+
+/*Start Nav-link*/
+.nav-link{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+/*End Nav-link*/
+
+/*Start Social Icon*/
+.social-contact-icon{
+    width: 42px;
+    height: 42px;
+    background-color: transparent !important;
+    border: 0px !important;
+    margin-left: 5px;
+}
+/*End Social Icon*/
+
+/*Start Book Button*/
+.bokunButton{
+    background-color: transparent;
+    font-weight: bold;
+    border: 2px solid #585858;
+    border-radius: 21px;
+    padding: 10px;
+    font-size: 18px;
+}
+/*End Book Button*/
+
+/*Start Into-section*/
+#intro-section{
+    background-image: url('./img/b2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:440px !important;
+}
+/*End Into-section*/
+
+/*Start Jumbotron*/
+.jumbotron{
+    border-radius: 0px !important;
+    overflow: overlay;
+}
+/*End Jumbotron*/
 
 /*Start section-title*/
 .section-title{
-    font-family: Diwan;
-    font-size: 63px;
     text-align: center;
-    margin-top: 0px !important;
-    margin-bottom: 40px;
-    font-weight: bold;
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 9vh;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    color: #000000d1;
+    font-family: fantasy;
 }
 /*End section-title*/
 
@@ -72,6 +98,9 @@ Text Domain: Nasiha
     margin: 0 auto;
 }
 /*End center-d*/
+
+/*************************************************************************/
+
 
 /*Start exam-section-parag*/
 .exam-section-parag{
@@ -199,12 +228,7 @@ Text Domain: Nasiha
     background-color: transparent !important;
     border: 0px !important;
 }
-.social-contact-icon{
-    width: 60px;
-    height: 60px;
-    background-color: transparent !important;
-    border: 0px !important;
-}
+
 /*End social-info*/
 
 /*Start Jumbotron*/

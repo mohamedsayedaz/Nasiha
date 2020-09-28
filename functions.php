@@ -35,7 +35,7 @@
     function add_bootstrap_menu(){
         wp_nav_menu(array(
             'theme_location' => 'Main-Menu',
-            'menu_class'     => 'navbar-nav mr-auto',
+            'menu_class'     => 'navbar-nav ml-auto',
             'depth'          => 1,
             'container'      => false,
             'walker'         => new wp_bootstrap_navwalker
